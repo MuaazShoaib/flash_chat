@@ -42,6 +42,8 @@ class _ChatScreenState extends State<ChatScreen> {
   //   }
   // }
 
+  // 188. [Dart] Streams - Explanation
+
   void messagesStream() async {
     await for (var snapshot in _firestore.collection('messages').snapshots()) {
       for (var message in snapshot.docs) {
