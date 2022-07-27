@@ -17,16 +17,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   late String email;
   late String password;
 
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   super.initState();
-  //   Firebase.initializeApp().whenComplete(() {
-  //     print('Firebase.initializeApp() - completed');
-  //   });
-  //   setState(() {});
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
